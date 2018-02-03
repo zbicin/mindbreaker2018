@@ -3,5 +3,5 @@ export enum ButtonType {
     Green,
     Yellow,
     Red,
-    Gray
+    Grey
 }
