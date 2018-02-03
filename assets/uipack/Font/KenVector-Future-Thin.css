@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'KenVectorFutureThin';
+    src: url('KenVector-Future-Thin.woff2') format('woff2'),
+        url('KenVector-Future-Thin.woff') format('woff'),
+        url('KenVector-Future-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
