@@ -1,5 +1,6 @@
 import * as Assets from '../assets';
 import * as AssetUtils from '../utils/assetUtils';
+import MenuState from './menu';
 
 export default class Preloader extends Phaser.State {
     private preloadBarSprite: Phaser.Sprite = null;
@@ -21,6 +22,6 @@ export default class Preloader extends Phaser.State {
     }
 
     private loadTitle(): void {
-        this.game.state.start('title');
+        this.game.state.start(MenuState.STATE_NAME);
     }
 }
